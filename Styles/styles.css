@@ -35,7 +35,7 @@
 }
 /* First Section Button Styles */
 .preebook-button{
-    margin-top: 30px;
+    margin-top: 20px;
         width: 196px;
         height: 44px;
         background-color:#E02C6D;
@@ -163,6 +163,70 @@ font-size: 16px;
     font-weight: 700;
 
 }
+
+/*-------------------- Extra Feature Style----------------------------- */
+.extra-feature{
+   
+    width: 100%;
+    height: 350px;
+    background-color: rgb(185, 27, 61);
+    border-radius: 50px;
+  
+    
+}
+
+.subscribe h1{
+    color: white;
+    font-family: poppins;
+    font-size: 40px;
+    text-align: center;
+}
+.subscribe p{
+    color: white;
+    font-family: poppins;
+    font-size: 30px;
+    text-align: center;
+}
+form{
+  display: flex;   
+  flex-direction: column;
+  align-items: center;
+    
+    
+}
+input{
+    height: 50px;
+    width: 500px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(236, 238, 224);
+    border: 0;
+    border-radius: 25px;
+    text-align: center;
+    
+    
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-left: 10px;
+    height: 50px;
+    
+    font-weight: 700;
+    width: 250px;
+    border-radius: 25px;
+    border: 0;
+    background-color: rgb(255, 81, 0);
+   
+}
+button a{
+    
+    font-family: poppins;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
 
 /*------------------------Footer Styles------------------ */
 footer{
