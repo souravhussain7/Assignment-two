@@ -2,9 +2,24 @@
 .first-header{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
+    width:300px;
+    height: 40px;
     font-size: 24px;
     margin-left: 120px;
-}
+    transition: transform 1s;  
+   }
+
+
+   .first-header:hover {
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    color: white;
+    border-radius: 15px; 
+    background: rgb(255, 0, 0);
+    transform:rotate(360deg);
+  }
+
 /* ----------------------First Section styles-----------------------------*/
 .start-journey{
     display: flex;
@@ -82,17 +97,9 @@
    
 
 }
-.collections{
- 
-  
-    width: 329px;
+.collections{ 
+     width: 329px;
     height: 476px;
-
-}
-.collection{
-    /* width: 329px;
-    height: 476px; */
-
 }
 .collection img{
     width: 300px;
@@ -164,7 +171,7 @@ font-size: 16px;
 
 }
 
-/*-------------------- Extra Feature Style----------------------------- */
+/*-------------- Third Section : Extra Feature Style---------------- */
 .extra-feature{
    
     width: 100%;
